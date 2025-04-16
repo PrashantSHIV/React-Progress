@@ -17,8 +17,6 @@ export function QuoteGen(){
             );
     }
     
-    
-
     return <section className="bg-zinc-800 absolute top-1/2 left-1/2 -translate-1/2 p-20 rounded-md text-2xl text-white text-center">
         <h1 className="font-black mb-10 text-3xl whitespace-nowrap">Get a Random Inspirational and Motivational Quote</h1>
         <main className=" bg-zinc-700 p-5 rounded-md">
