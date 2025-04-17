@@ -3,6 +3,7 @@ import { ColorThemeSwitcher } from "./components/ColorThemeSwitcher";
 import { Counter } from "./components/Counter";
 import { ToDoApp } from "./components/ToDoApp";
 import { QuoteGen } from "./components/QuoteGen";
+import { ExpenseApp } from "./ExpenseApp";
 
 function App(){
 
@@ -15,8 +16,8 @@ function App(){
   // }
   const [state,setState] = useState(false) */
 
-  return <main className={`h-[100vh] w-[100%] bg-zinc-900`}>
-    <QuoteGen/>
+  return <main className={`h-[100vh] w-[100%]`}>
+    <ExpenseApp/>
   </main>
 }
 
