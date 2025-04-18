@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Item, SummaryItem } from "./components/Expense";
+import { Item, SummaryItem } from "./Expense";
 
 export function ExpenseApp(){
     const [totalIncome,setIncome] = useState(0)
