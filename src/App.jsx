@@ -5,6 +5,9 @@
 // import { QuoteGen } from "./components/QuoteGen";
 import { WeatherApp } from "./components/Weather";
 
+import { MovieApp } from "./components/MovieApp";
+
+
 function App(){
 
   /* Color Theme Switcher:
@@ -15,9 +18,9 @@ function App(){
   //   else setState(false)
   // }
   const [state,setState] = useState(false) */
+  // -[#698fb6]`}>
 
-  return <main className={`h-[100vh] w-[100%] bg-[#698fb6]`}>
-    <WeatherApp/>
+  return <main className={`min-h-[100vh] w-[100%] bg-zinc-900`} >
   </main>
 }
 
